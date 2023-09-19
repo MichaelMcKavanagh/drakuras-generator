@@ -1,0 +1,23 @@
+.terrain-types-list {
+  list-style: none;  
+  margin: 0;
+  padding: 0;
+}
+
+.terrain-types-list li {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.terrain-types-list li:hover {
+  background-color: orange;
+}
+
+.terrain-types-list li.active {
+  background-color: yellow;
+}
